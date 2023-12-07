@@ -43,7 +43,8 @@ a {
   gap: 16px;
 }
 
-.title {
+.parttwo .title,
+.pull .title {
   font-size: 64px;
   font-weight: bolder;
 }
@@ -52,7 +53,7 @@ a {
   color: white;
 }
 
-.pull button {
+.signup {
   background-color: #779952;
   color: white;
   padding: 16px;
@@ -119,4 +120,39 @@ a {
 
 .quote .person {
   text-align: right;
+}
+
+.sell {
+  display: flex;
+  background-color: #779952;
+  margin: 125px 250px;
+  border-radius: 25px;
+  align-items: center;
+  padding: 50px 100px;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+.sell .title {
+  font-size: 32px;
+
+}
+
+.sell .signup {
+  border: 1px solid white;
+}
+
+.sell .text {
+  color: white;
+  max-width: 60%;
+  flex: 0 1 auto;
+}
+
+.footer {
+  height: 80px;
+  background-color: #527f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
