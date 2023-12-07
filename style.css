@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.intro {
+  background-color: #527f99;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 10%;
+  align-items: center;
+  height: 100px;
+}
+
+.social {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.hook {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  margin-top: 48px;
+  gap: 16px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+.hook .title {
+  color: white;
+}
+
+button {
+  background-color: #779952;
+  color: white;
+  padding: 16px;
+}
+
+.pull {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10%;
+}
+
+.hook .content {
+  color: #333;
+}
+
+.hook-img {
+  max-width: 40vw;
+  max-height: 40vw;
+}
+
+.pieceset img {
+  width: 250px;
+  height: 250px;
+  border: 8px solid #779952;
+  border-radius: 8%;
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+}
+
+.pieceset .description {
+  max-width: 250px;
+}
+
+.pieceset {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.parttwo {
+  display: flex;
+  flex-direction: column;
+}
