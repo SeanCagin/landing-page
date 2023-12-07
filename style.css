@@ -110,3 +110,13 @@ a {
 .parttwo .title {
   margin: 48px 0px;
 }
+
+.quote {
+  background-color: #b6d3e4;
+  padding: 125px 500px;
+  font-size: 32px;
+}
+
+.quote .person {
+  text-align: right;
+}
